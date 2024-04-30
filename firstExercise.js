@@ -7,37 +7,7 @@ n1 = parseInt(prompt("Escriba un primer número"));
 n2 = parseInt(prompt("Escriba un segundo número"));
 n3 = parseInt(prompt("Escriba un tercer número"));
 
-//Validar número mayor, centro y menor. 
-
-// if (n1 < n3 && n2 < n3 ) {
-//     mayor = n3;
-//     if (n1 < n2) {
-//         menor = n1;
-//         centro = n2;
-//     }
-//     else {
-//         menor = n2;
-//         centro = n1;
-//     }
-// }
-
-// else if (n1 < n2 && n3 < n2){
-//     mayor = n2
-//     if (n1 < n3) {
-//         menor = n1;
-//         centro = n3;
-//     }
-//     else {
-//         menor = n3;
-//         centro = n1;
-//     }
-// }
-
-// else {
-//     mayor = n1
-// }
-
-//Validar repeticiones 
+//Validar repeticiones y luego número mayor, centro y menor.
 if (n1 === n2 && n1 === n3) {
     repetir = 3;
     numRepetidor = n1;
